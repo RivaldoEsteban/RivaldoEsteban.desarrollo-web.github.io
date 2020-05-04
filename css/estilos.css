@@ -345,8 +345,32 @@ figure {
   .container {
     padding: 0 1em;
   }
+  .hero {
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 2em;
+  }
+  .hero-image {
+    position: relative;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .h1 {
+    position: absolute;
+    font-size: 2em;
+    z-index: 2;
+  }
 }
 
+.html-video {
+  width: 100%;
+  height: auto;
+}
 @media screen and (max-width: 767px) {
   .header {
     display: block;
@@ -407,6 +431,9 @@ figure {
 }
 
 @media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.5em;
+  }
   .project-details {
     /*width: auto;*/
     font-size: 12px;
@@ -435,4 +462,10 @@ figure {
 }
 
 @media screen and (max-width: 320px) {
+  h1 {
+    font-size: 1.2em;
+  }
+  .hero {
+    padding: 2em 1em;
+  }
 }
