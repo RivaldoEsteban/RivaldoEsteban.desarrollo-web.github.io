@@ -1,4 +1,4 @@
-/* reglas  
+/* reglas
 selectores
 declaraciones
 propiedades
@@ -6,8 +6,8 @@ valores */
 
 /*selector de etiqueta : header, section, article, nav */
 /*header{
-    background: pink;  
-    color: red 
+    background: pink;
+    color: red
 }
 
 /*selector descendente          */
@@ -22,9 +22,9 @@ valores */
 /* selector de id # */
 /* #portafolio */
 
-/* gris oscuro = #1d252c 
+/* gris oscuro = #1d252c
     gris claor = #626262
-    background gris = #1b2127 
+    background gris = #1b2127
     celeste =   #026fff */
 
 @font-face {
@@ -126,7 +126,7 @@ h2 {
         border-right: 10px solid green ;
         border-left: 10px solid orange   ;
         border-bottom: 10px solid  pink;*/
-  /* border-color: red;  
+  /* border-color: red;
         border-width: 15px;
         border-style: solid;*/
   border: 1px solid gray;
@@ -309,7 +309,7 @@ figure {
 }
 
 /*social {
- 
+
 }*/
 
 .social-link {
@@ -478,7 +478,7 @@ figure {
     justify-content: center;
     transition: 0.3s;
   }
-  .menu-is-active {
+  .menu.is-active {
     left: 0;
   }
 
